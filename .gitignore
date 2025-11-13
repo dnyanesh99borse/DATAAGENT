@@ -1,0 +1,18 @@
+# Root ignores
+.env
+.DS_Store
+.vscode/
+.idea/
+tmp/
+logs/
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# Backend
+backend/node_modules/
+backend/venv/
+backend/__pycache__/
+backend/dist/
