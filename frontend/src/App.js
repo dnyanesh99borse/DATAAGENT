@@ -8,6 +8,8 @@ import Audit from './pages/Audit';
 import Topbar from './components/Topbar';
 import Sidebar from './components/Sidebar';
 import styled from 'styled-components';
+
+import DBConnection from './pages/DBConnection'
 import { DataProvider } from './context/DataContext';
 
 const AppLayout = styled.div`
@@ -50,9 +52,12 @@ export default function App() {
             <Route path="/Connections" element={<Connections />} />
             <Route path="/publish" element={<Publish />} />
             <Route path="/audit" element={<Audit />} />
+            <Route path="/DBConnection" element={<DBConnection/>} />
           </Routes>
         </Main>
       </AppLayout>
     </DataProvider>
   );
 }
+
+

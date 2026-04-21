@@ -27,6 +27,7 @@ export default function Sidebar(){
       <Link to="/Connections">Connections</Link>
       <Link to="/publish">Publish</Link>
       <Link to="/audit">Audit Log</Link>
+      <Link to="/DBConnection">DB Connection</Link>
       <hr style={{border:'none',height:1,background:'#1f2937', margin:'12px 0'}}/>
       <Link to="/settings">Settings</Link>
     </Nav>
